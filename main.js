@@ -63,10 +63,10 @@ console.log(sum(2,4));
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
 function avg(x,y,z){
-    return x * 3 + y * 3 + z * 3;
+    return ((x + y + z)/3) ;
 }
 
-console.log(avg(1,2,3));
+console.log(avg(2,4,6));
 
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
